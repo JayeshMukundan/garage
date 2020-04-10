@@ -1,0 +1,4 @@
+libs
+*venv*
+*\.idea
+*sqlalchemy_example.db
