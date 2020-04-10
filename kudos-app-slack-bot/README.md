@@ -36,7 +36,7 @@ for bp in list(profileService.get_brownie_points_from_work_email("albert_einstei
 
 ``` 
 
-**Setup**
+**Setup Highlevel**
 
 1. Setup the `brownie_genie` bot and provide the necessary permissions. See steps below.
 1. Setup a virtualenv for python3
@@ -49,7 +49,9 @@ for bp in list(profileService.get_brownie_points_from_work_email("albert_einstei
 1. Run python server/app.py
 1. Now give kudos in slack as explained above
 
-**Slack Setup**
+**Setup Details for some of the non trivial ones**
+
+***Slack Setup***
 
 This setup assumes that your slack environment has 3 users
 1. Edison (edison@example.com)
@@ -59,12 +61,12 @@ This setup assumes that your slack environment has 3 users
 Now, lets add the `brownie_genie` bot. In `slack` parlance, this bot is an app. Follow the steps in [here](https://github.com/slackapi/python-slackclient/blob/master/tutorial/01-creating-the-slack-app.md) to create the `brownie_genie` bot.
 Once you do this, go to the `Event Subscriptions` section in https://api.slack.com for your bot and then subscribe to the `app_mention` event. Once you save changes, reinstall the app.
 
-**Setup virtualenv**
+***Setup virtualenv***
 
 virtualenv -p python3 venv_p3
 source venv_p3/bin/activate
 
-**Setup env variables**
+***Setup env variables***
 
 This project requires two env variables
 
@@ -73,11 +75,11 @@ This project requires two env variables
 
 You can also follow the steps outlined [here](https://github.com/slackapi/python-slackclient/blob/master/tutorial/04-running-the-app.md) to get the env values
 
-**ngrok setup**
+***ngrok setup***
 
 This is very straightforward. Goto [ngrok](https://ngrok.com/download) and follow the steps. You will need to signin to get your Auth token.
 
-**Configure the ngrok url in your slack account**
+***Configure the ngrok url in your slack account***
 
 Follow the steps outlined in the [`Subscribe to Events`](https://github.com/slackapi/python-slackclient/blob/master/tutorial/04-running-the-app.md
 ) section
