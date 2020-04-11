@@ -1,4 +1,4 @@
-This has a bunch of things that I have played with and possibly working.
+This has a bunch of things that I have played with and possibly working or things that I have read and found interesting.
 
 **My Work**
 1. [Kudos using slack bots](kudos-app-slack-bot)
