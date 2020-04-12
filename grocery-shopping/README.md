@@ -7,7 +7,7 @@ technologies, based on Lucene, offer solutions that help to quickly find the ite
 For example, when you search for “fruits”, there is not much time to figure out which among the millions of items are “fruits”.
 So they support indexing (much like the one you see in books) such that the application knows exactly which items to return. 
 
-Now, what else do we need here? User asks for something and we quickly find it. The challenge here is how do we keep with what
+Now, what else do we need here? User asks for something and we quickly find it. The challenge here is how do we keep up with what
 users can ask for. Today, they ask for “fruits”. What if they change the search to “vitamin a rich fruits”? I tried this search
 query in one of the popular grocery giants and it listed all the vitamin supplements and no fruits. In machine learning 
 parlance, we have built a high variance system. We have built a model that is too much tied to the training set such that we 
