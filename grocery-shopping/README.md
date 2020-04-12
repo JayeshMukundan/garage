@@ -1,13 +1,13 @@
 This is a work in progress. Nothing concrete yet, just a trail of thoughts...
 
-How graph databases could help online groceries help with better search responses?
+**How graph databases could help online groceries help with better search responses?**
 
 Today, many online shopping systems by either solr or elasticsearch, the two stalwarts in the field of text search. Both
 technologies, based on Lucene, offer solutions that help to quickly find the items based on the user's search query.
 For example, when you search for “fruits”, there is not much time to figure out which among the millions of items are “fruits”.
 So they support indexing (much like the one you see in books) such that the application knows exactly which items to return. 
 
-Now, what else do we need here? User asks for something and we quickly find it. The challenge here is how do we keep up with what
+Now, what else do we need here? User asks for something and we quickly find it. The **challenge here is how do we keep up** with what
 users can ask for. Today, they ask for “fruits”. What if they change the search to “vitamin a rich fruits”? I tried this search
 query in one of the popular grocery giants and it listed all the vitamin supplements and no fruits. In machine learning 
 parlance, we have built a high variance system. We have built a model that is too much tied to the training set such that we 
@@ -19,7 +19,7 @@ How can we modify the search system to satisfy the user's request without moving
 We could attach vitamin information to the index, translate the response that maps the “rich” in the user's query to an 
 appropriate filter on the vitamin information and render relevant results. Pretty straightforward… 
 
-Now, lets say if we want to query “vitamin balanced fruits”? What should it search for? Vitamin A or come up with a list of 
+Now, lets **say if we want to query “vitamin balanced fruits”**? What should it search for? Vitamin A or come up with a list of 
 combinations of fruits such that they form a proper balanced diet that folks can put in a subscription for recurring delivery? 
 How is the text search system going to help? It is very likely that we can come up with a solution, but the problem is that 
 the solutions are very reactive. They don’t capture the relationships between items upfront. We need a model that captures the 
