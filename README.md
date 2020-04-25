@@ -2,6 +2,7 @@ This has a bunch of things that I have played with and possibly working or thing
 
 **My Work**
 1. [Kudos using slack bots](kudos-app-slack-bot)
+1. [In Memory School Search Service](schools_demo)
 1. [WIP:Grocery Shopping and graph databases](grocery-shopping)
 1. [WIP: Matchmaking of a kind](matchmaker)
 
